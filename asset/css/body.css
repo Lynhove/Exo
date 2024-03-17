@@ -1,0 +1,9 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --background-color: var(#37517E);
+}
+nav{
+   background-color: #37517E !important;
+}
