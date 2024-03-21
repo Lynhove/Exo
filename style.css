@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@100..900&display=swap');
+
+
 body{
-    font-family: "inter", sans-serif;
+    font-family: "inder", sans-serif;
     width: 100%;
 }
 :root{
@@ -11,12 +14,13 @@ body{
 header{
    background-color: #37517E !important;
    height: 90vh;
-   min-height: auto;
+   width: 100%;
 }
 
 .navbar-brand{
     color: aliceblue;
     font-weight: bold;
+    
 }
 .navbar-brand:hover{
     color: rgb(19, 130, 228);
@@ -24,14 +28,51 @@ header{
 
 .navbar-nav .nav-item .nav-link{
     color: aliceblue;
+    margin-left: 20px;
 }
 .navbar-nav .nav-item .nav-link:hover{
     color: rgb(19, 130, 228);
 }
+
+.main-header{
+    margin-top: 7%;
+}
 /*fin*/
 
-.section1{
+.section-accordion{
     background-color: #F3F5FA !important;
 }
 
+.section1{
+    background-color: #F3F5FA !important;
+    width: 100%;
+}
 
+.section4{
+    background-color: #F3F5FA !important;
+}
+
+.container .main-grid{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+.container .main-grid .grid{
+    background-color: #ffffff !important;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.section-img{
+    height: 50vh;
+    background-image: url(./asset/images/pexel.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+
+}
