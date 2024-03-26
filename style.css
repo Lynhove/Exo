@@ -46,6 +46,17 @@ header{
 .section1{
     background-color: #F3F5FA !important;
     width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+.section1 img{
+    filter: grayscale(100%);
+    width: 70px;
+    height: 70px;
+    
+}
+.section2 ul li{
+    list-style-type: none;
 }
 
 .section4{
